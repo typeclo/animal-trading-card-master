@@ -1,7 +1,3 @@
-#margin {
-  margin: 2px;
-}
-
 #turtleImage {
   width: 300px;
   height: 200px;
@@ -15,15 +11,16 @@
   font-style: italic;
 }
 
-.labels {
+.li-label {
   font-weight: bold;
 }
 
-#style {
+#attribute-list {
   list-style: none;
+  padding-left: 0;
 }
 
-#first-div {
+#card {
   border: 2px silver solid;
   width: 300px;
   padding: 10px;
@@ -32,7 +29,7 @@
   box-shadow: 10px 5px 5px rgb(89 89 175 / 0.8);
 }
 
-#second-div {
+#card-description {
   margin: 1px;
   border: 2px solid silver;
   font-size: 12px;
